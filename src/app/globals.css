@@ -32,7 +32,7 @@ body {
 }
 
 body {
-  background-color: #f6f6f6;
+  background-color: #ffffff;
 }
 
 nav {
@@ -51,21 +51,22 @@ nav {
 }
 
 .navbar-links-container a{
-  margin-right: 6rem;
+  margin-right: 2rem;
+  padding: 0.2rem;
   text-decoration: none;
-  color: #505050;
-  font-size: 1.1rem;
-  font-weight: 600;
+  color: #ffffff;
+  font-size: 1.3rem;
+  font-weight: 400;
 }
 .primary-button {
-  color: #484848;
-  margin: 5rem;
+  color: #0096fa;
+  margin: 2rem;
   padding: 0.9rem 4rem;
-  background-color: #f6f6f6;
+  background-color: #f6f6f6e3;
   outline: none;
   border: none;
-  border-radius: 3rem;
-  font-size: 1.1rem;
+  border-radius: 2rem;
+  font-size: 1.2rem;
   cursor: pointer;
   font-weight: 600;
   transition: 0.2s;
@@ -85,12 +86,19 @@ nav {
   display: flex;
   padding-top: 3rem;
 }
+
+.home-banner-image2{  
+  position: absolute;
+  width: 800px;
+  right: 70px;
+}
+
 .home-bannerImage-container {
   position: absolute;
-  top: -300px;
-  right: -70px;
+  top: -250px;
+  right: -150px;
   z-index: -2;
-  max-width: 900px;
+  max-width: 1200px;
 }
 .home-image-section {
   max-width: 600px;
@@ -102,22 +110,25 @@ nav {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+  margin: 60px;
+  padding: 60px;
+
 }
 .primary-heading {
   font-size: clamp(2rem, 5vw, 4rem);
   color: #4c4c4c;
-  /* line-height: 5rem; */
-  max-width: 600px;
+  line-height: 5rem;
+  max-width: 800px;
 }
 .primary-text {
   font-size: clamp(1rem, 3vw, 1.5rem);
-  max-width: 500px;
+  max-width: 700px;
   color: #6a6a6a;
-  margin: 1.5rem 0rem;
+  margin: 2.5rem 0rem;
 }
 .secondary-button {
   padding: 1rem 2.5rem;
-  background-color: #fe9e0d;
+  background-color: #0077ff;
   outline: none;
   border: none;
   border-radius: 5rem;
@@ -135,23 +146,33 @@ nav {
   font-size: 1.5rem;
 }
 .secondary-button:hover {
-  background-color: #e48f0f;
+  background-color: #0096fa;
 }
 .about-section-container {
-  margin-top: 20rem;
+  margin-top: 10rem;
   position: relative;
   display: flex;
   align-items: center;
   justify-content: space-between;
+
+}
+
+.logo-section-image{ 
+  max-width: 1700px;
+  position: absolute;
+  top: -0px;
+  right: 930px;
 }
 .about-background-image-container {
   position: absolute;
-  left: -150px;
+  left: -170px;
   z-index: -2;
 }
 .about-section-image-container {
-  flex: 0.9;
-  margin-right: 1rem;
+  flex: 1.0;
+  margin-right: 5rem;
+  margin-top: 50rem;
+
 }
 .about-section-text-container {
   flex: 1;
@@ -160,8 +181,8 @@ nav {
   flex-direction: column;
 }
 .primary-subheading {
-  font-weight: 700;
-  color: #fe9e0d;
+  font-weight: 600;
+  color: #0096fa;
   font-size: 1.15rem;
 }
 .about-buttons-container {
