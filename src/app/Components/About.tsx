@@ -11,7 +11,7 @@ const About = () => {
             <img className='logo-section-image' src="./about-background-image.png" alt="" />
         </div>  
         <div className='about-section-text-container'>   
-            <p className='primary-subheading'>SOBRE</p>
+            <p className='primary-subheading'>About</p>
             <h1 className='primary-heading'>    
                 Somos a TR COMERCIAL
             </h1>
