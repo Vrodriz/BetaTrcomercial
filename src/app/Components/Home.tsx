@@ -16,10 +16,12 @@ const Home = () => {
             </h1>
             <p className='primary-text'> 
             Fazemos todo o trabalho preparatório, como separar e embalar, para que você tenha produtos de limpeza e materiais têxteis de alta qualidade prontos para usar.
-            </p>
+            </p>  
+            <a href="https://api.whatsapp.com/send?phone=5592993089602"> 
             <button className='secondary-button'>  
-              Atendimento <FiArrowRight/>
-            </button>
+                Atendimento <FiArrowRight/>
+              </button>
+            </a>
           </div>
           <div className='home-image-container'> 
             <img className='home-banner-image2' src="./home-banner-image.png" alt="" />

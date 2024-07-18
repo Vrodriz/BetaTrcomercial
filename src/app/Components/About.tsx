@@ -20,8 +20,13 @@ const About = () => {
             Estamos focados em atender pequenos e médios negócios, redes de lojas, distribuidores e atacadistas. Nossa estrutura fabril em Itaporanga, PB, e o ponto de apoio em Manaus, AM, garantem uma logística eficiente.
             </p>
             <div className='about-buttons-container'>
+
+                <a href="https://drive.google.com/file/d/1DUhcHP1VbQYo9i9axu-8Z3fIf7ycfBNA/view?usp=drive_link"> 
                 <button className='secondary-button'>Saiba Mais</button>
+                </a>
+                <a href="https://www.instagram.com/trcomercial.manaus/reel/CuErEBoOejZ/"> 
                 <button className='watch-video-button'> <BsFillPlayCircleFill/> Assista</button>
+                </a>
             </div>
         </div>
     </div>

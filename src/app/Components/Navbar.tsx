@@ -48,10 +48,12 @@ const Navbar = () => {
       <a href="">Home</a>
       <a href="">Sobre</a>
       <a href="">Produtos</a>
-      <a href="">Catálogo</a> 
+      <a href="https://drive.google.com/file/d/1DUhcHP1VbQYo9i9axu-8Z3fIf7ycfBNA/view?usp=drive_link">Catálogo</a> 
+      <a href="https://api.whatsapp.com/send?phone=5592993089602"> 
       <button className='primary-button'>  
         Contato
       </button>
+      </a>
     </div>
     <div className='navbar-menu-container'> 
       <HiOutlineBars3 onClick={() => setOpenMenu(true)} />

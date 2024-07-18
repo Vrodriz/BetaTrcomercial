@@ -5,6 +5,7 @@ import About from './Components/About'
 import Work from './Components/Work'
 import Carousel from './Components/Caurosel'
 import Navbarcarousel from './Components/Navbarcarousel'
+import Contact from './Components/Contact'
 
 
 const page = () => {
@@ -15,6 +16,7 @@ const page = () => {
       <Work/>
       <Navbarcarousel/>
       <Carousel/>
+      <Contact/>
     </div>
   )
 }
