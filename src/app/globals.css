@@ -448,6 +448,17 @@ form .btn-enviar input {
 }
 
 @media (max-width: 900px) {
+
+  .logo-navbar{ 
+    max-width: 250px;
+    margin-left: -50px;
+    padding: auto;
+  }
+
+  .primary-heading{ 
+    padding: 0px 10px;
+  }
+
   .App {
     width: 95vw;
   }
@@ -462,6 +473,16 @@ form .btn-enviar input {
   .primary-button {
     font-size: 1rem;
   }
+
+  .home-banner-image2{  
+    max-width: 200px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    margin-top: -8rem;
+    margin-left: 5rem;
+  }
+
   .home-bannerImage-container {
     max-width: 600px;
   }
@@ -484,11 +505,16 @@ form .btn-enviar input {
     margin-bottom: 0.8rem;
     text-align: center;
   }
+
+  .formulario h1{
+    padding: 2px 3%;
+    margin: -21px;
+  }
 }
 
 @media (max-width: 800px) {
   .nav-logo-container {
-    max-width: 140px;
+    max-width: 250px;
   }
   .navbar-links-container {
     display: none;
@@ -507,23 +533,46 @@ form .btn-enviar input {
   .home-image-section, .about-section-image-container {
     width: 100%;
     max-width: 400px;
+    display: none;
   }
   .primary-heading {
     text-align: center;
-    max-width: 90%;
+    padding: -100px;
+    margin: -50px;
+    
   }
   .primary-text {
     text-align: center;
     max-width: 80%;
+    margin-top: 50px;
   }
   .home-text-section, .about-section-text-container {
     justify-content: center;
     align-items: center;
-    margin-top: 4rem;
+    margin-top: 2rem;
+    padding: 4px 1%;
   }
   .about-section-container {
-    margin-top: 5rem !important;
+    margin-top: 2rem !important;
   }
+
+  .about-section-container h1{ 
+    margin: 10px;
+  }
+
+  .logo-section-image{  
+    max-width: 300px;
+  }
+
+  .work-section-top h1{ 
+    margin-top: -10px;
+  }
+
+.work-section-top, .primary-text{ 
+  padding: 10px 4%
+}
+
+
   .about-buttons-container {
     justify-content: center;
     flex-direction: column;
