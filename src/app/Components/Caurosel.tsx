@@ -1,12 +1,12 @@
-'use client';
+'use client'
 
 import React from 'react';
-import Image from 'next/image';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
-import { Autoplay, Navigation, Pagination } from 'swiper/modules';
+import { Navigation, Pagination, Autoplay } from 'swiper/modules';
+import Image from 'next/image';
 
 const Carousel = () => {
   const slides = [
@@ -29,13 +29,7 @@ const Carousel = () => {
         <div className="md:col-span-4 md:row-span-2">
           <a className="relative block aspect-square h-full w-full" href="#">
             <div className="group flex h-full w-full items-center justify-center overflow-hidden rounded-lg border bg-white hover:border-blue-500 dark:bg-white relative border-neutral-200 dark:border-neutral-100">
-              <Image
-                className="object-cover"
-                src={slides[0].src}
-                alt={slides[0].title}
-                width={1200} 
-                height={600} 
-              />
+              <Image className="w-[1000px] inset-2 text-transparent" src={slides[0].src} alt={slides[0].title} width={1000} height={1000} />
             </div>
             <div className="absolute bottom-0 left-0 flex w-full px-4 pb-4 lg:px-20 lg:pb-[15%]">
               <div className="flex items-center rounded-full border bg-white/70 p-1 text-xs font-semibold text-black backdrop-blur-md dark:border-neutral-800 dark:bg-black/70 dark:text-white">
@@ -53,13 +47,7 @@ const Carousel = () => {
           <div className="md:col-span-2 md:row-span-1" key={index}>
             <a className="relative block aspect-square h-full w-full" href="#">
               <div className="group flex h-full w-full items-center justify-center overflow-hidden rounded-lg border bg-white hover:border-blue-500 dark:bg-white relative border-neutral-200 dark:border-neutral-100">
-                <Image
-                  className="w-full h-full object-cover"
-                  src={slide.src}
-                  alt={slide.title}
-                  layout="fill"
-                  objectFit="cover"
-                />
+                <Image className="h-full w-full inset-0 text-transparent" src={slide.src} alt={slide.title} width={250} height={250} />
                 <div className="absolute bottom-0 left-0 flex w-full px-4 pb-4">
                   <div className="flex items-center rounded-full border bg-white/70 p-1 text-xs font-semibold text-black backdrop-blur-md dark:border-neutral-800 dark:bg-black/70 dark:text-white">
                     <h3 className="mr-4 line-clamp-2 flex-grow pl-2 leading-none tracking-tight">
@@ -111,8 +99,8 @@ const Carousel = () => {
                     className="relative h-full w-full object-contain transition duration-300 ease-in-out group-hover:scale-105"
                     src={slide.src}
                     alt={slide.title}
-                    layout="fill"
-                    objectFit="contain"
+                    width={250}
+                    height={250}
                   />
                 </div>
                 <div className='absolute bottom-0 left-0 flex w-full px-4 pb-4'>
